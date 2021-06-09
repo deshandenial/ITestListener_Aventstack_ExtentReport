@@ -1,0 +1,6 @@
+[INFO ] 2021-06-09 22:57:07.310 [main] SelectPage_Test - *****selectTest is started******
+[INFO ] 2021-06-09 22:57:07.716 [main] LoginPage_Test - *****loginTest is started******
+[INFO ] 2021-06-09 22:57:09.568 [main] LoginPage_Test - ******loginTest is ended*******
+[INFO ] 2021-06-09 22:57:09.840 [main] LoginPage_Test - *****loginTest is started******
+[INFO ] 2021-06-09 22:57:10.042 [main] InputPage_Test - *****inputTest is started******
+[INFO ] 2021-06-09 22:57:10.239 [main] ButtonPage_Test - *****buttonTest is started******

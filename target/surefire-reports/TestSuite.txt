@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 17.055 s <<< FAILURE! - in TestSuite
+selectUI(com.qa.listeners_extentreports.tests.SelectPage_Test)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.SelectPage.selectUI()" because "this.uiPage3" is null
+	at com.qa.listeners_extentreports.tests.SelectPage_Test.selectUI(SelectPage_Test.java:32)
+
+homePageTest(com.qa.listeners_extentreports.tests.HomePage_Test)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.HomePage.doPractice()" because "this.homePage" is null
+	at com.qa.listeners_extentreports.tests.HomePage_Test.homePageTest(HomePage_Test.java:27)
+
+inputTest(com.qa.listeners_extentreports.tests.InputPage_Test)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.InputPage.inputUI()" because "this.uiPage" is null
+	at com.qa.listeners_extentreports.tests.InputPage_Test.inputTest(InputPage_Test.java:29)
+
+buttonTest(com.qa.listeners_extentreports.tests.ButtonPage_Test)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.ButtonPage.buttonUI()" because "this.uiPage2" is null
+	at com.qa.listeners_extentreports.tests.ButtonPage_Test.buttonTest(ButtonPage_Test.java:33)
+

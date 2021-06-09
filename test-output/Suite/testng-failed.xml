@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.demo.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.listeners_extentreports.tests.ButtonPage_Test">
+        <methods>
+          <include name="buttonTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.listeners_extentreports.tests.ButtonPage_Test -->
+      <class name="com.qa.listeners_extentreports.tests.InputPage_Test">
+        <methods>
+          <include name="inputTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.listeners_extentreports.tests.InputPage_Test -->
+      <class name="com.qa.listeners_extentreports.tests.HomePage_Test">
+        <methods>
+          <include name="homePageTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.listeners_extentreports.tests.HomePage_Test -->
+      <class name="com.qa.listeners_extentreports.tests.SelectPage_Test">
+        <methods>
+          <include name="selectUI" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.listeners_extentreports.tests.SelectPage_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

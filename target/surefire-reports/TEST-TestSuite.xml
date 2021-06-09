@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.055" tests="5" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="E:\TestNG Workspace\ITestListener_Aventstack_ExtentReport\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DELL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="DELL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="E:\TestNG Workspace\ITestListener_Aventstack_ExtentReport"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\TestNG Workspace\ITestListener_Aventstack_ExtentReport"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\DELL\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/DELL/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/DELL/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_271\bin;E:\Softwares\apache-maven-3.6.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;E:\Git\cmd;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Roaming\npm;E:\Protractor Workspace\Microsoft VS Code\bin;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;E:\Eclipse\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="classworlds.conf" value="E:\TestNG Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6740897696912756237.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="selectUI" classname="com.qa.listeners_extentreports.tests.SelectPage_Test" time="0.019">
+    <failure message="Cannot invoke &quot;com.qa.listeners_extentreports.pages.SelectPage.selectUI()&quot; because &quot;this.uiPage3&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.SelectPage.selectUI()" because "this.uiPage3" is null
+	at com.qa.listeners_extentreports.tests.SelectPage_Test.selectUI(SelectPage_Test.java:32)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Test Suite started!
+[INFO ] 2021-06-09 22:56:57.222 [main] BaseTest - ******before test annotation triggered******
+[INFO ] 2021-06-09 22:56:57.230 [main] ConfigReader - ******browser read properties file******
+[INFO ] 2021-06-09 22:56:57.230 [main] DriverFactory - application map with browser name is : chrome
+[INFO ] 2021-06-09 22:56:57.231 [main] DriverFactory - ******chrome browser triggered successfully******
+[INFO ] 2021-06-09 22:56:59.556 [main] DriverFactory - ******chrome browser successfully launched******
+[INFO ] 2021-06-09 22:57:01.273 [main] DriverFactory - ******chrome browser window successfully maximized******
+[INFO ] 2021-06-09 22:57:01.281 [main] BaseTest - ******successfully browser read properties files******
+[INFO ] 2021-06-09 22:57:07.131 [main] BaseTest - ******application url triggered******
+[INFO ] 2021-06-09 22:57:07.275 [main] BaseTest - ******before test annotation finished******
+selectUI started!
+[INFO ] 2021-06-09 22:57:07.310 [main] SelectPage_Test - *****selectTest is started******
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 12462
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 09, 2021 10:56:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.listeners_extentreports.tests.LoginPage_Test" time="1.855"/>
+  <testcase name="homePageTest" classname="com.qa.listeners_extentreports.tests.HomePage_Test" time="0.001">
+    <failure message="Cannot invoke &quot;com.qa.listeners_extentreports.pages.HomePage.doPractice()&quot; because &quot;this.homePage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.HomePage.doPractice()" because "this.homePage" is null
+	at com.qa.listeners_extentreports.tests.HomePage_Test.homePageTest(HomePage_Test.java:27)
+</failure>
+    <system-out><![CDATA[loginTest passed!
+homePageTest started!
+[INFO ] 2021-06-09 22:57:09.840 [main] LoginPage_Test - *****loginTest is started******
+]]></system-out>
+  </testcase>
+  <testcase name="inputTest" classname="com.qa.listeners_extentreports.tests.InputPage_Test" time="0.002">
+    <failure message="Cannot invoke &quot;com.qa.listeners_extentreports.pages.InputPage.inputUI()&quot; because &quot;this.uiPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.InputPage.inputUI()" because "this.uiPage" is null
+	at com.qa.listeners_extentreports.tests.InputPage_Test.inputTest(InputPage_Test.java:29)
+</failure>
+    <system-out><![CDATA[homePageTest failed!
+inputTest started!
+[INFO ] 2021-06-09 22:57:10.042 [main] InputPage_Test - *****inputTest is started******
+]]></system-out>
+  </testcase>
+  <testcase name="buttonTest" classname="com.qa.listeners_extentreports.tests.ButtonPage_Test" time="0.005">
+    <failure message="Cannot invoke &quot;com.qa.listeners_extentreports.pages.ButtonPage.buttonUI()&quot; because &quot;this.uiPage2&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.qa.listeners_extentreports.pages.ButtonPage.buttonUI()" because "this.uiPage2" is null
+	at com.qa.listeners_extentreports.tests.ButtonPage_Test.buttonTest(ButtonPage_Test.java:33)
+</failure>
+    <system-out><![CDATA[inputTest failed!
+buttonTest started!
+[INFO ] 2021-06-09 22:57:10.239 [main] ButtonPage_Test - *****buttonTest is started******
+]]></system-out>
+  </testcase>
+</testsuite>
